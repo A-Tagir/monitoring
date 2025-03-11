@@ -132,6 +132,14 @@ git clone https://github.com/influxdata/sandbox.git
 
 ## Задание 8
 
+![cpu_usage](https://github.com/A-Tagir/monitoring/blob/main/02/CICD_Monitoring_cpu_usage.png)
+
+## Задание 9
+
+* Добавляю в конфиг изменения согдасно заданию и проверяю:
+
+[measurements_docker](https://github.com/A-Tagir/monitoring/blob/main/02/CICD_Monitoring_measurements_docker.png)
+
 
 
 
