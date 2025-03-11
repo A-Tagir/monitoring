@@ -109,6 +109,29 @@ Nagios           - Работает в соответствии с  pull-мод�
 
 ## Задание 7
 
+* Клонирую репозиторий
+
+git clone https://github.com/influxdata/sandbox.git
+
+* Папкам задаю нужные для запуска права
+
+ sudo chmod -R 0777 kapacitor/
+
+ sudo chmod -R 0777 telegraf/
+
+* Запускаю
+
+./sandbox up
+
+
+![tick is up](https://github.com/A-Tagir/monitoring/blob/main/02/CICD_Monitoring_tick_up.png)
+
+
+![chronograf](https://github.com/A-Tagir/monitoring/blob/main/02/CICD_Monitoring_chronograf.png)
+
+
+## Задание 8
+
 
 
 
