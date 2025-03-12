@@ -10,4 +10,7 @@
 
 docker-compose up -d
 
-* 
+* Проверяем docker ps
+
+![docker ps](https://github.com/A-Tagir/monitoring/blob/main/04/CICD_ELK_up.png)
+
