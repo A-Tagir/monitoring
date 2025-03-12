@@ -37,6 +37,17 @@ docker-compose up -d
 
 - Свободно памяти оперативной: node_memory_MemFree_bytes
 
+* Чтобы убедится, что все корректно отображается, заходим в контейнер с nodeexporter и загружаем процессор:
+
+```
+tiger@VM1:~/monitoring/03/help$ docker exec -it 5be036a9431f sh
+/ $ cat /dev/random > /dev/null
+^C
+/ $ exit
+```
+
+* Видим, что график отреагировал правильно.
+
 ![Dashboard](https://github.com/A-Tagir/monitoring/blob/main/03/CICD_Grafana_dashboard.png)
 
 ## Задание 3
